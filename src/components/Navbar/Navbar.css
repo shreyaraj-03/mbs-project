@@ -1,6 +1,6 @@
 .navbar{
 	padding: 1rem;
-	background-color: #1e1e1e;
+	background-color: #2c2c2c;
 	border-bottom: #b31e30 solid 0.7rem;
 }
 
@@ -31,5 +31,20 @@
 }
 
 .drop-link{
-	color: black;
+	color: white;
+}
+
+.dropdown-menu-end{
+	background-color: #2c2c2c;
+}
+
+.dropdown-item{
+	color: white;
+}
+.dropdown-item:hover{
+	background-color: #1e1e1e;
+	color: white;
+}
+.dropdown-divider{
+	border: solid #b31e30 0.1px;
 }
