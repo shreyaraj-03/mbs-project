@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // Component imports
 import Navbar from './components/Navbar/Navbar';
 import Login from './components/Login/Login';
-import Home from './components/Home/Home';
+import List from './components/ListPage/List';
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact Component={Login} />
-        <Route path='/home' Component={Home} />
+        <Route path='/login' exact Component={Login} />
+        <Route path='/' Component={List} />
       </Routes>
     </Router>
   );
