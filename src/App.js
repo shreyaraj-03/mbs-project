@@ -11,13 +11,17 @@ import List from './components/ListPage/List';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/login' exact Component={Login} />
-        <Route path='/' Component={List} />
-      </Routes>
-    </Router>
+    <div className='page'>
+      <Router>
+        <Navbar />
+        <div className='home'>
+          <Routes>
+            <Route path='/login' exact Component={Login} />
+            <Route path='/' Component={List} />
+          </Routes>
+        </div>
+      </Router>  
+    </div>
   );
 }
 
